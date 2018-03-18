@@ -39,12 +39,16 @@ body{
 	padding:10px;
 	margin: 5px;
 }
-#create {
-	
-	
-}
+
 .nav button{
 	float:right;
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 32px;
+}
+
+.nav form{
+	float: right;
 	background-color: #4CAF50;
 	color: white;
 	padding: 15px 32px;
