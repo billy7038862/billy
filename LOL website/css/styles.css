@@ -1,19 +1,19 @@
 body{
 	background:grey;
-	margin:0;
+	margin:0; 
 
 }
 
 .top-box{
-	
-	
-	left: 30%;
 	width:100%;
 	min-width: 100%
 	
 }
 
+
+
 .nav{
+	 
 	width:190px;
 	
 	}
@@ -22,6 +22,8 @@ body{
 	
 	list-style: none;
 }
+
+
 
 div.main{
 	height: 60px;
@@ -65,31 +67,66 @@ li.blue-color ul.subs li a:hover{
 	color:#FFF;
 
 }
-.content-box{
+.content {
 	background-color: white;
 	margin-left:200px;
-	height: auto;
+	height: 100px;
+	width:1200px;
 	max-width: 100%;
 	max-height: 100%;
+	border-top:solid; 
+	text-align: center;
+	margin-bottom: 20px;
+
+
 	
 }
 
-.side button{
-	float: left;
+.nav button{
+	margin-left: 40px;
 	background-color: black;
 	color: white;
 	padding: 15px 32px;
 	border: none;
+	width:150px;
+	height:60px;
 
 }
 
-.side form{
-	float: left;
-	background-color: #4CAF50;
+.nav form{
+	background-color: purple;
+	
 	color: white;
 	padding: 15px 32px;
-	height: 15px;
+	text-align: center;
+	
+	margin-left: 40px;
+}
 
+.side {
+	
+	
+	
 
 }
 
+.footer p{
+	text-align: center;
+	margin:0;
+	padding:4px;
+	
+
+}
+
+.footer tag {
+	padding: 10px 5px;
+	margin-left: 40px;
+	color:white;
+	font-size:  20px;
+
+	
+}
+.footer{
+	border-top: solid;
+	
+}

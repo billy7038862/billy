@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   float:left;
   width:330px;
+  background-color: white;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
@@ -30,23 +31,45 @@ body {
   z-index: 2;
 }
 .form-signin input[type="email"] {
-  margin-bottom: -1px;
+  margin-bottom: 1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 .form-signin input[type="password"] {
   margin-bottom: 10px;
+  margin-left: 29px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-#register{
-width:20px;
-height:auto;
-}
+
+
+
 
 #id01{
   float: left;
 
+}
+
+.container2 p{
+  font-size: 24px;
+}
+
+.container2 label {
+  font-size: 24px;
+}
+.modal span{
+  width:10px;
+  height: 10px;
+  color: red;
+  background-color: yellow;
+}
+
+.container1{
+  background-color: white;
+}
+
+.container2{
+  width:1100px;
 }
 

@@ -13,8 +13,9 @@
   <body>
     <img class = "top-box " src="images/lol.jpg" alt="LOL" height="853" width="1180">
 
-<div class="nav">
-    <ul>
+
+	<div class="nav">
+    <ul style="margin-bottom:0">
     	<li class="blue-color">
     			<div class="main">Versus</div>
     			<ul class="subs">
@@ -30,37 +31,51 @@
     		</ul>  
     	</li>
 	</ul>
-</div>
-
-		<div class="side">
-		
-    	<button id="create">
+	
+	<button id="create">
     		<span>create a room </span>
     	</button>
+
     	<form action="login.html">
     	<input type="submit" value="Login" />
 		</form>
-    </div>
+		
+	</div>
+<div class="content">
+			<h2>content box</h2>
+		</div>
+
+		
+    	
     
-    <div class="content-box">
-    	<h2>content box</h2>
-    </div>
+		
+	
+		
+    	
+    	
+    	
     
-    <div class="footer">
-    	<p>@2018 Copyright</p>
-    </div>
+    
 
     <script type="text/javascript">
 	$(function() {
 		$("ul.subs").hide();
-		$("div.main").click(function(){
-			$("ul.subs").slideUp();
-			if($("+ul",this).css("display")=="none"){
+			$("div.main").click
+				(function(){
+				$("ul.subs").slideUp();
+				if($("+ul",this).css("display")=="none")
+				{
 				$("+ul",this).slideDown();
-			}
+				}
 		
 	});
 });
 </script>
+
   </body>
+
+  <div class="footer">
+  		<tag>About : League of Lengend, Leisure, Electronic Sport</tag>
+    	<p>@2018 Copyright</p>
+    </div>
 </html>
